@@ -130,6 +130,44 @@ The project uses **Framer Motion** for animations. You can easily add:
 - `GET /api/health` - Health check
 - `GET /api/test` - Test endpoint
 
+## 🚀 Deployment
+
+### Production Build
+
+1. **Build the frontend:**
+   ```bash
+   cd frontend
+   npm run build
+   ```
+
+2. **Build the backend:**
+   ```bash
+   cd backend
+   npm run build
+   ```
+
+3. **Set environment variable:**
+   ```bash
+   export NODE_ENV=production
+   ```
+
+4. **Start the production server:**
+   ```bash
+   cd backend
+   npm start
+   ```
+
+The backend will serve the frontend static files and handle all routes properly.
+
+### Hosting Platform Configuration
+
+The project includes configuration files for:
+- **Netlify**: `netlify.toml` - Handles SPA routing
+- **Vercel**: `vercel.json` - Handles SPA routing
+- **Netlify**: `frontend/public/_redirects` - Fallback redirects
+
+For other platforms, ensure all routes redirect to `index.html` to enable client-side routing.
+
 ## 🎯 Next Steps
 
 Ready to build! Tell me what you'd like to create and I'll help you implement it.

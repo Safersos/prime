@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
+import Logo from './Logo'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -29,9 +30,13 @@ const Navbar = () => {
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            className="flex items-center gap-3"
           >
-            <Link to="/" className="text-2xl font-bold text-primary-600">
-              Prime Recruiterz
+            <Link to="/" className="flex items-center gap-3">
+              <Logo className="flex-shrink-0" />
+              <span className="text-2xl font-bold text-primary-600">
+                Prime RecruiterZ
+              </span>
             </Link>
           </motion.div>
 

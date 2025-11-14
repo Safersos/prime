@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <motion.footer
-      className="bg-gray-900 text-white"
+      className="bg-primary-800 text-white"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
@@ -22,8 +22,8 @@ const Footer = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
           >
-            <h3 className="text-xl font-bold mb-4">Prime Recruiterz</h3>
-            <p className="text-gray-400">
+            <h3 className="text-xl font-bold mb-4">Prime RecruiterZ</h3>
+            <p className="text-primary-200">
               Unleash Your Business Potential with Industry Best Talent
             </p>
           </motion.div>
@@ -36,7 +36,7 @@ const Footer = () => {
             transition={{ delay: 0.2 }}
           >
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
-            <ul className="space-y-2 text-gray-400">
+            <ul className="space-y-2 text-primary-200">
               <li>
                 <Link to="/" className="hover:text-white transition-colors">
                   Home
@@ -68,7 +68,7 @@ const Footer = () => {
             transition={{ delay: 0.3 }}
           >
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
-            <div className="space-y-3 text-gray-400">
+            <div className="space-y-3 text-primary-200">
               <div className="flex items-center space-x-2">
                 <Phone size={18} />
                 <a href="tel:+919500733171" className="hover:text-white transition-colors">
@@ -80,13 +80,13 @@ const Footer = () => {
         </div>
 
         <motion.div
-          className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400"
+          className="border-t border-primary-700 mt-8 pt-8 text-center text-primary-200"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ delay: 0.4 }}
         >
-          <p>© {currentYear} Prime Recruiterz. All rights reserved.</p>
+          <p>© {currentYear} Prime RecruiterZ. All rights reserved.</p>
         </motion.div>
       </div>
     </motion.footer>

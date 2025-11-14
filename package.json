@@ -1,7 +1,7 @@
 {
   "name": "prime-recruiterz",
   "version": "1.0.0",
-  "description": "Prime Recruiterz - Modern React & Node.js Application",
+  "description": "Prime RecruiterZ - Modern React & Node.js Application",
   "private": true,
   "workspaces": [
     "frontend",

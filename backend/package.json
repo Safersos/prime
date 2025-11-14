@@ -1,7 +1,7 @@
 {
   "name": "prime-recruiterz-backend",
   "version": "1.0.0",
-  "description": "Backend API for Prime Recruiterz",
+  "description": "Backend API for Prime RecruiterZ",
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",

@@ -1,4 +1,4 @@
-# Prime Recruiterz - React & Node.js Application
+# Prime RecruiterZ - React & Node.js Application
 
 A modern, full-stack web application built with React, Node.js, and TypeScript, featuring beautiful animations powered by Framer Motion.
 

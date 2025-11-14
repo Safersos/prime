@@ -85,7 +85,7 @@ const About = () => {
                 <h2 className="text-2xl font-bold text-gray-900 mb-4">
                   {section.title}
                 </h2>
-                <p className="text-gray-600 leading-relaxed">{section.content}</p>
+                <p className="text-gray-600 leading-relaxed text-justify">{section.content}</p>
               </motion.div>
             ))}
           </div>
@@ -114,7 +114,7 @@ const About = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="bg-gradient-to-br from-primary-50 to-white p-8 rounded-xl shadow-lg"
           >
-            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <p className="text-lg text-gray-700 leading-relaxed mb-6 text-justify">
               We deliver services for executive search, manpower outsourcing,
               labour-laws audit compliance, training, and learning environment,
               all tailored to provide solutions to help increase the productivity,
@@ -123,7 +123,7 @@ const About = () => {
               property sectors and other services related businesses and
               organizations.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-lg text-gray-700 leading-relaxed text-justify">
               We believe in customizing and developing specific solutions through
               a collaborative process designed to identify a client's requirements
               and objectives. The unique approach combined with the strong faculty
